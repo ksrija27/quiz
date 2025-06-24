@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="theme">
+        <button id="themebtn">🌙</button>
+    </div>
+    <div class="container">
+    <div id ="start">
+        <h1>Quiz</h1>
+        <input type="text" id="username" placeholder="Enter your name" autocomplete="off">
+        <button id="startbtn">Start Quiz</button>
+    </div>
+
+    <div class="hide" id="quizbox">
+        <div class="header">
+            <div id="userlabel"></div>
+            <div id="timer"> ⏱️ 15s</div>
+        </div>
+        <div id="progress">Question 1 of 3</div>
+        <h2 id="question">Question text</h2>
+        <div id="answers"></div>
+        <div id="feedback"></div>
+        <button id="nextbtn">Next</button>
+    </div>
+    <div class="hide" id="result">
+        <h2>🎉 Quiz Completed</h2>
+        <p id="scoretext"></p>
+        <button id="restart">Restart Quiz</button>
+    </div>
+    </div>
+<script src="script1.js"></script>
+
+</body>
+</html>

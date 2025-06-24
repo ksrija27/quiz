@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    /* background: linear-gradient(-45deg, #6a11cb, #2575fc, #ff6a00, #00f2fe); */
+    /* background: linear-gradient(-45deg, #3a1c71, #d76d77, #ffaf7b, #6a11cb); */
+    background: linear-gradient(-45deg, #4a90e2, #50e3c2, #5a9bd6, #6ec6ff);
+    background-size: 400% 400%;
+    color:#fff;
+    animation: gradientBG 12s ease infinite;
+    min-height: 100vh;
+  }
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+h1,h2{
+  text-align: center;
+  text-shadow: 0 0 10px #fff,  0 0 20px #00f2fe;
+}
+input[type="text"]{
+  width:100%;
+  padding: 13px;
+  margin:16px 0;
+  font-size:1.2rem;
+  border-radius: 10px;
+  border: none;
+  background:rgba(255,255,255,0.2);
+  color:#1a1919;
+}
+button{
+  width: 100%;
+  padding: 13px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  background:rgba(255,255,255,0.3) ;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+button:hover{
+  transform: scale(1.05);
+  background:rgba(255,255,255,0.5) ;
+}
+.theme{
+  position: fixed;
+  top:15px;
+  right:15px;
+  /* border-radius: 50%; */
+  font-size:1.2rem;
+  /* background: #000; */
+  color:rgb(255, 255, 255);
+  padding: 10px;
+}
+.hide{
+  display: none;
+}
+#answers button{
+  margin-bottom: 10px;
+  color: black;
+  background: rgba(255, 255, 255, 0.8); 
+}
+.correct {
+  background-color: #28a745 !important;
+  color: white;
+}
+
+.wrong {
+  background-color: #dc3545 !important;
+  color: white;
+}
+
+#feedback {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+.container{
+  max-width: 600px;
+  margin:60px auto;
+  padding: 2rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255,255,255,0.2)
+}
+.dark-mode{
+  background: black;
+  color:white;
+}
+/* .dark-mode .container{
+  background: rgba(0, 0, 0, 0.4);
+} */
+#nextbtn {
+  width: 100%;
+  padding: 13px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#nextbtn:hover {
+  background-color: #ff6347;
+  color: white;
+  transform: scale(1.05);
+  transition: background-color 0.3s ease;
+}
+
