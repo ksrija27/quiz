@@ -78,3 +78,5 @@ Feel free to contribute or customize questions in `script.js`!
 
 ## OUTPUT
 ![Image](https://github.com/user-attachments/assets/7438aa8e-697a-4c16-a613-44b11ad2b039)
+
+https://ksrija27.github.io/quiz/
