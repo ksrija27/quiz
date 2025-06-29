@@ -74,3 +74,7 @@ An interactive, responsive quiz application built using **HTML**, **CSS**, and *
 ---
 
 Feel free to contribute or customize questions in `script.js`!
+
+
+##OUTPUT
+![Image](https://github.com/user-attachments/assets/17ae5742-ce28-4ce4-b35d-acec7c9ccf5e)
